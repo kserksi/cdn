@@ -1,0 +1,19 @@
+/* font */
+/* 启用了 Opentype 的高级排版功能，使字体展现更加优雅*/
+@font-face {
+    font-family: 'MIsans';
+    src:
+            url("../font/MiSans-Regular.woff2") format("woff2"),
+            url("../font/MiSans-Regular.woff") format("woff"),
+            url("../font/MiSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    -webkit-font-feature-settings: "liga", "kern", "SS01", "SS02", "SS03", "SS04", "SS07", "frac", "sups", "sbus", "case", "thum";
+    font-feature-settings: "liga", "kern", "SS01", "SS02", "SS03", "SS04", "SS07", "frac", "sups", "sbus", "case", "thum";
+
+}
+
+body {
+    font-family: "MIsans", sans-serif;
+}
